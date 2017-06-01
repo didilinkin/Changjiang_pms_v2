@@ -1,30 +1,18 @@
 {
   "presets": [
-    [
-      "latest",
-      {
-        "modules": false
-      }
-    ],
-    "stage-0",
-    "react"
+    ["es2015", { "modules": false }],
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-decorators-legacy",
+    "transform-flow-strip-types",
+    "react-hot-loader/babel"
   ],
   "env": {
-    "development": {
-      "presets": [
-        "react-hmre"
-      ]
+    "production": {
+      "plugins": ["transform-react-remove-prop-types", "transform-react-constant-elements"]
     }
-  },
-  "plugins": [
-    [
-      "import",
-      {
-        "libraryName": "antd",
-        "style": true
-      }
-    ],
-    "transform-runtime",
-    "transform-decorators-legacy"
-  ]
+  }
 }
