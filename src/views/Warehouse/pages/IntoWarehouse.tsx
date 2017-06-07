@@ -1,7 +1,7 @@
 // 入库管理
-import React from 'react'
+import * as React from 'react'
 
-class IntoWarehouse extends React.Component {
+class IntoWarehouse extends React.Component<{}, null> {
     render () {
         return (
             <div>

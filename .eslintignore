@@ -2,6 +2,7 @@ bin/*.js
 config/*.js
 server/*.js
 scripts/*.js
+utils/*.js
 /node_modules/*.js
 src/App.test.js
 src/style/theme/index.js
