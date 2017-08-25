@@ -1,4 +1,4 @@
-# 长江中心 - 物业管理系统 - V2.0版本
+# 长江中心 - 物业管理系统 - V2.0版本( GPL版本 将不再开发内部业务; 接下来将转为 优化为主; )
 
 > 脚手架模型来自 [react-admin](https://github.com/yezihaohao/react-admin)
 >
